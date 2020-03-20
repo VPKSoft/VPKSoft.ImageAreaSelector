@@ -11,6 +11,7 @@ A Windows Forms control to select an area of an image.
 * Set a value whether to force a rectangular selection
 
 _Screenshot_
+
 ![image](https://user-images.githubusercontent.com/40712699/77139618-55bc0e00-6a7f-11ea-8968-f208007f898d.png)
 
 ## Thanks to
