@@ -96,15 +96,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.iasSelectArea.AutoScroll = true;
             this.iasSelectArea.Location = new System.Drawing.Point(12, 27);
-            this.iasSelectArea.MaximumSelectionSize = new System.Drawing.Rectangle(0, 0, 100, 100);
-            this.iasSelectArea.MinimumSelectionSize = new System.Drawing.Rectangle(0, 0, 0, 0);
+            this.iasSelectArea.MaximumSelectionSize = new System.Drawing.Size(600, 600);
+            this.iasSelectArea.MinimumSelectionSize = new System.Drawing.Size(0, 0);
             this.iasSelectArea.Name = "iasSelectArea";
             this.iasSelectArea.RequireRectangle = true;
             this.iasSelectArea.SelectImage = null;
             this.iasSelectArea.SelectionBoxColor = System.Drawing.Color.Gold;
             this.iasSelectArea.Size = new System.Drawing.Size(446, 411);
             this.iasSelectArea.TabIndex = 0;
-            this.iasSelectArea.Zoom = 100D;
             this.iasSelectArea.SelectedImageChanged += new VPKSoft.ImageAreaSelector.ImageAreaSelector.OnSelectedImageChanged(this.iasSelectArea_SelectedImageChanged);
             // 
             // FormMain

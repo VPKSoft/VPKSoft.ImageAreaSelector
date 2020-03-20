@@ -38,8 +38,8 @@ namespace VPKSoft.ImageAreaSelector
     {
         /// <summary>
         /// Gets the image of the area of the user selection within the <see cref="ImageAreaSelector.SelectImage"/> area.
-        /// The subscriber of this event is responsible for making a copy of the image as it is disposed by the after the event code finished executing.
         /// </summary>
+        /// <remarks>The subscriber of this event is responsible for making a copy of the image as it is disposed by the after the event code finished executing.</remarks>
         public Image SelectedImageArea { get; internal set; }
     }
 }
